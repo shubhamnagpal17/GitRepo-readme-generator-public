@@ -1,6 +1,6 @@
 from flask import Flask,request,render_template
-from gemini import generate_readme_material
-from gitapi import fetch_repo_metadata, extract_owner_repo
+from APIS.gemini import generate_readme_material
+from APIS.gitapi import fetch_repo_metadata, extract_owner_repo
 
 app=Flask(__name__)
 
